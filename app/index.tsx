@@ -13,6 +13,14 @@ export default function Home() {
         </Pressable>
       </Link>
 
+      <Link href="/create-event" asChild>
+        <Pressable style={styles.itemContainer}>
+          <Text>
+            Criar Evento
+          </Text>
+        </Pressable>
+      </Link>
+
       <Link href="/register" asChild>
         <Pressable style={styles.itemContainer}>
           <Text>
